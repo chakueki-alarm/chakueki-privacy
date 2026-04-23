@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー - 着駅あらーむ</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+    background: #F8F9FA;
+    color: #2D3561;
+    line-height: 1.8;
+    padding: 0 0 60px;
+  }
+
+  /* ヘッダー */
+  .header {
+    background: linear-gradient(135deg, #FF6B35, #FF9F43);
+    padding: 48px 24px 32px;
+    color: white;
+    text-align: center;
+  }
+  .header-icon { font-size: 48px; margin-bottom: 12px; }
+  .header h1 { font-size: 22px; font-weight: 900; margin-bottom: 4px; }
+  .header p  { font-size: 13px; opacity: 0.85; }
+
+  /* コンテンツ */
+  .container {
+    max-width: 680px;
+    margin: 32px auto;
+    padding: 0 20px;
+  }
+
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .card h2 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #FF6B35;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card h2::before {
+    content: '';
+    display: inline-block;
+    width: 4px; height: 18px;
+    background: linear-gradient(180deg, #FF6B35, #FF9F43);
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  .card p:last-child { margin-bottom: 0; }
+
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  .card ul li {
+    font-size: 14px;
+    color: #444;
+    padding: 6px 0 6px 18px;
+    position: relative;
+    border-bottom: 1px solid #F0F0F0;
+  }
+  .card ul li:last-child { border-bottom: none; }
+  .card ul li::before {
+    content: '▸';
+    position: absolute; left: 0;
+    color: #FF9F43;
+    font-size: 11px;
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #FF6B3510, #FF9F4308);
+    border: 1.5px solid #FF6B3530;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 12px 0;
+  }
+  .highlight-box p {
+    font-size: 13px;
+    color: #FF6B35;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .updated {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 32px;
+  }
+
+  .contact-card {
+    background: linear-gradient(135deg, #2D3561, #1a1a3e);
+    border-radius: 16px;
+    padding: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .contact-card h2 { color: #FF9F43; font-size: 14px; margin-bottom: 8px; }
+  .contact-card p  { font-size: 13px; opacity: 0.7; margin-bottom: 4px; }
+  .contact-card a  { color: #FF9F43; text-decoration: none; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-icon">🚃</div>
+  <h1>プライバシーポリシー</h1>
+  <p>着駅あらーむ（着あら）</p>
+</div>
+
+<div class="container">
+
+  <!-- はじめに -->
+  <div class="card">
+    <h2>はじめに</h2>
+    <p>「着駅あらーむ」（以下「本アプリ」）は、電車の乗り過ごしを防止するGPSアラームアプリです。本アプリを利用される前に、このプライバシーポリシーをご確認ください。</p>
+    <p>本アプリをご利用いただくことで、このプライバシーポリシーに同意したものとみなします。</p>
+  </div>
+
+  <!-- 収集する情報 -->
+  <div class="card">
+    <h2>収集する情報</h2>
+    <p>本アプリが収集・利用する情報は以下の通りです。</p>
+    <ul>
+      <li><strong>位置情報（GPS）</strong>：目的地の駅に近づいたことを検知するために使用します。アプリがバックグラウンドで動作している間も位置情報を取得します</li>
+      <li><strong>お気に入り駅・設定情報</strong>：デバイス内にのみ保存されます。外部サーバーには送信されません</li>
+      <li><strong>アプリの使用状況</strong>：クラッシュレポートなど、アプリ改善のための匿名データ（Apple標準の仕組みを使用）</li>
+    </ul>
+    <div class="highlight-box">
+      <p>📍 本アプリは位置情報を外部サーバーに送信しません。すべてのデータはお使いのデバイス内で処理されます。</p>
+    </div>
+  </div>
+
+  <!-- 位置情報の使用目的 -->
+  <div class="card">
+    <h2>位置情報の使用目的</h2>
+    <p>本アプリは以下の目的のみで位置情報を使用します。</p>
+    <ul>
+      <li>ユーザーが設定した目的地の駅への接近を検知する</li>
+      <li>接近を検知した際にアラームを発動する</li>
+      <li>現在地から目的地までの距離を計算・表示する</li>
+    </ul>
+    <p>位置情報はアラーム機能が有効な間のみ取得され、アラームを解除すると取得を停止します。マーケティング・広告・第三者提供などには一切使用しません。</p>
+  </div>
+
+  <!-- バックグラウンドでの位置情報取得について -->
+  <div class="card">
+    <h2>バックグラウンドでの位置情報取得について</h2>
+    <p>本アプリの主な機能（乗り過ごし防止アラーム）を正常に動作させるため、アプリがバックグラウンドにある間も継続的に位置情報を取得します。</p>
+    <p>これは以下の理由によるものです。</p>
+    <ul>
+      <li>ユーザーが電車乗車中にスマートフォンの画面をオフにしている場合でも、目的地への到着を検知する必要があるため</li>
+      <li>アラームが鳴らずに乗り過ごすことを防ぐため、継続的な位置監視が必要なため</li>
+    </ul>
+    <div class="highlight-box">
+      <p>⚡ バックグラウンドでの位置情報取得はバッテリーを消費します。アラームが不要な場合は解除することを推奨します。</p>
+    </div>
+  </div>
+
+  <!-- 第三者への情報提供 -->
+  <div class="card">
+    <h2>第三者への情報提供</h2>
+    <p>本アプリは、以下の場合を除き、ユーザーの情報を第三者に提供することはありません。</p>
+    <ul>
+      <li>ユーザーの同意がある場合</li>
+      <li>法令に基づく場合</li>
+      <li>人の生命・身体・財産の保護のために必要がある場合</li>
+    </ul>
+    <p>本アプリには広告は表示されません。広告目的での情報収集・提供は一切行いません。</p>
+  </div>
+
+  <!-- 使用するフレームワーク・サービス -->
+  <div class="card">
+    <h2>使用するフレームワーク・サービス</h2>
+    <ul>
+      <li><strong>Core Location（Apple）</strong>：位置情報の取得</li>
+      <li><strong>MapKit（Apple）</strong>：地図表示</li>
+      <li><strong>WatchConnectivity（Apple）</strong>：Apple Watch連携（対応版）</li>
+      <li><strong>HeartRails Express</strong>：駅・路線データの取得（開発時のみ）</li>
+    </ul>
+    <p>これらはすべてApple標準フレームワークまたは信頼性の高いサービスです。ユーザーデータを収集・送信するサードパーティSDKは使用していません。</p>
+  </div>
+
+  <!-- データの保存・削除 -->
+  <div class="card">
+    <h2>データの保存・削除</h2>
+    <p>本アプリが保存するデータ（お気に入り駅・設定など）はすべてデバイス内のみに保存されます。</p>
+    <p>データを削除したい場合は、デバイスからアプリをアンインストールすることで、すべてのデータが削除されます。</p>
+  </div>
+
+  <!-- お子様の利用について -->
+  <div class="card">
+    <h2>お子様の利用について</h2>
+    <p>本アプリは年齢制限を設けておりません。ただし、13歳未満のお子様がご利用の場合は、保護者の方の同意のもとでご使用ください。</p>
+  </div>
+
+  <!-- 免責事項 -->
+  <div class="card">
+    <h2>免責事項</h2>
+    <p>本アプリはGPS・位置情報技術を使用しています。以下の状況ではアラームが正常に動作しない場合があります。</p>
+    <ul>
+      <li>地下区間・トンネル内など、GPS電波が届かない場所</li>
+      <li>電波状況が極端に悪い環境</li>
+      <li>デバイスの省電力モードが有効な場合</li>
+      <li>OSによるバックグラウンドアプリの制限が働いた場合</li>
+    </ul>
+    <div class="highlight-box">
+      <p>⚠️ 重要な移動には、本アプリと時刻アラームを併用することを強くお勧めします。アラームが鳴らなかったことによる損害について、開発者は責任を負いません。</p>
+    </div>
+  </div>
+
+  <!-- プライバシーポリシーの変更 -->
+  <div class="card">
+    <h2>プライバシーポリシーの変更</h2>
+    <p>本プライバシーポリシーは予告なく変更される場合があります。変更後のポリシーは本ページに掲載した時点で効力を生じます。重要な変更がある場合は、アプリ内でもお知らせします。</p>
+  </div>
+
+  <!-- お問い合わせ -->
+  <div class="contact-card">
+    <h2>📮 お問い合わせ</h2>
+    <p>プライバシーに関するご質問・ご要望は下記までご連絡ください。</p>
+    <p style="margin-top:8px;">
+      <!-- ★ ここにメールアドレスを入力してください ★ -->
+      <a href="mailto:support@chakueki-alarm.com">support@chakueki-alarm.com</a>
+    </p>
+    <p style="font-size:11px;margin-top:8px;opacity:0.5;">開発者：JUN SUETAKE</p>
+  </div>
+
+  <p class="updated">最終更新日：2026年4月20日</p>
+
+</div>
+</body>
+</html>
